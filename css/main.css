@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.hide{
+  display: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+
+
+main{
+  width: 360px;
+  margin: 50px auto;
+  position: relative;
+  height: 627px;
+  border: 1px solid #ccc;
+}
+
+.content, header, .map, .nav-bar, .more, .footer-bar, .ad-content{
+  position: relative;
+}
+
+
+.back-btn, .isometric-btn, .roof-btn, .map .buildings-btn, .path-btn, .directory-btn{
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  z-index: 9999;
+}
+
+.store-btn, .dining-btn, .attraction-btn, .search-btn, .promo-btn, .more .buildings-btn, .about-btn, .access-btn, .wc-btn{
+  display: inline-block;
+}
+
+.store-btn, .dining-btn, .attraction-btn, .search-btn{
+  width: 24%;
+  height: 34px;
+}
+
+.promo-btn, .more .buildings-btn, .about-btn{
+  width: 32%;
+  height: 33px;
+}
+
+.access-btn, .wc-btn{
+  width: 49%;
+  height: 32px;
+}
+
+.directory-btn{
+  top: 17px;
+  right: 12px;
+}
+
+
+.path-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+header{
+  height: 50px;
+}
+
+header img, .map img, .nav-bar img, .more img, .footer-bar img{
+  position: absolute;
+  z-index:  -9999;
+}
+
+header img, .map-img, .nav-bar img, .more img, .footer-bar img{
+  top: 0;
+  left: 0;
+}
+
+.flags-img{
+  left: 90px;
+  top: 50px;
+}
+
+.track-img{
+  bottom: 84px;
+  left: 114px;
+}
+
+.home-btn{
+  display: block;
+  float: right;
+  height: 50px;
+  width: 55px;
+}
+
+.map{
+  height: 385px;
+}
+
+.back-btn{
+  top: 16px;
+  left: 23px;
+}
+
+.isometric-btn{
+  bottom: 135px;
+  right: 20px;
+}
+
+.roof-btn{
+  bottom: 112px;
+  right: 20px;
+}
+
+.buildings-btn{
+  bottom: 72px;
+  right: 20px;
+}
+
+.path-btn{
+  bottom: 50px;
+  right: 20px;
+}
+
+.nav-bar{
+  height: 34px;
+}
+
+.ad{
+  height: 92px;
+}
+
+.more{
+  height: 33px
+}
+
+.footer-bar{
+  height: 32px;
+}
+
+.map img.flags-img{
+  z-index: 0;
+}
+
+.about-content{
+  margin-top: 10px;
+}
+
+.search-img{
+  padding-top: 16px;
+}
+
+.map img.flags-img, .promo-img, .ad img{
+  cursor: pointer;
+}
